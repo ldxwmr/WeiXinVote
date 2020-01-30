@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WeixinVote:war" />
+      <artifact name="WeixinVote:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcc36b50-0d0d-41ac-b03f-a23f33085949" name="Default Changelist" comment="version1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controllers/BaomingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controllers/DetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controllers/PrizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controllers/RankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/ActivityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/ActivityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/CandidateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/CandidateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/ImagesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/ImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/LWMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/LWMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/LWRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/LWRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/PrizeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/PrizeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/VoterecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/mapper/VoterecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/LW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/LWRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/Prize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/po/Voterecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/model/service/VoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/baoming.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/baoming.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/lw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/prize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/rank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/addfile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/baoming.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/prize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/rank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/prize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/rank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/controllers/BaomingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/controllers/DetailsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/controllers/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/controllers/PrizeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/controllers/RankController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/ActivityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/ActivityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/CandidateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/CandidateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/ImagesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/ImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/LWMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/LWMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/LWRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/LWRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/PrizeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/PrizeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/VoterecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/mapper/VoterecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/Candidate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/Images.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/LW.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/LWRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/Prize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/po/Voterecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/com/neuedu/model/service/VoteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/aspectjweaver-1.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-dbcp2-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/commons-pool2-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/jackson-annotations-2.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/jackson-core-2.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/jackson-databind-2.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/mybatis-spring-1.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-aspects-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/baoming.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/baoming.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/lw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/prize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/css/rank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/img/1580293753448300000839764127060614318218_950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/img/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/img/addfile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/baoming.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/jquery-3.2.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/lw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/prize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/js/rank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/lw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/prize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WeixinVote/rank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controllers/BaomingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controllers/DetailsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controllers/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controllers/PrizeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controllers/RankController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/ActivityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/ActivityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/CandidateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/CandidateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/ImagesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/ImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/LWMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/LWMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/LWRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/LWRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/PrizeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/PrizeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/VoterecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/mapper/VoterecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/Candidate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/Images.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/LW.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/LWRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/Prize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/po/Voterecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/neuedu/model/service/VoteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WeixinVote" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\workspace\idea_workspace\ssm\WeixinVote\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Users\.m2\repository" />
+        <option name="userSettingsFile" value="D:\Program Files\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wyf7WSTfwW9c2lU6qzdXa4s669" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\webapp\static" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\webapp" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\resources" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\java\com\neuedu\model\service" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\java\com\neuedu\model\po" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\java\com\neuedu\model\mapper" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\java\com\neuedu\controllers" />
+      <recent name="G:\workspace\idea_workspace\ssm\WeixinVote\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="WeixinVote:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WeixinVote" />
+          </settings>
+        </artifact>
+        <artifact name="WeixinVote:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WeixinVote_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WeixinVote_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62134" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WeixinVote:war exploded" />
+          <artifact name="WeixinVote:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.18235931" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcc36b50-0d0d-41ac-b03f-a23f33085949" name="Default Changelist" comment="" />
+      <created>1580126587044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580126587044</updated>
+      <workItem from="1580126588269" duration="1544000" />
+      <workItem from="1580211977375" duration="979000" />
+      <workItem from="1580254816720" duration="16552000" />
+      <workItem from="1580292895843" duration="2763000" />
+      <workItem from="1580342854025" duration="1599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version1.0" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="485" y="250" key="#Inspections" timestamp="1580293357305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="485" y="250" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1580293357305" />
+    <state x="1087" y="182" key="#Project_Structure" timestamp="1580268770796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1087" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580268770796" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580270969029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580270969029" />
+    <state x="1300" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1580255261417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1300" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580255261417" />
+    <state x="539" y="116" key="CommitChangelistDialog2" timestamp="1580379157993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580379157993" />
+    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1580378390943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580378390943" />
+    <state width="1510" height="279" key="GridCell.Tab.0.bottom" timestamp="1580379158050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158050" />
+    <state width="1510" height="279" key="GridCell.Tab.0.center" timestamp="1580379158050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158050" />
+    <state width="1510" height="279" key="GridCell.Tab.0.left" timestamp="1580379158049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158049" />
+    <state width="1510" height="279" key="GridCell.Tab.0.right" timestamp="1580379158050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158050" />
+    <state width="1510" height="279" key="GridCell.Tab.1.bottom" timestamp="1580379158051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158051" />
+    <state width="1510" height="279" key="GridCell.Tab.1.center" timestamp="1580379158051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158051" />
+    <state width="1510" height="279" key="GridCell.Tab.1.left" timestamp="1580379158050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158050" />
+    <state width="1510" height="279" key="GridCell.Tab.1.right" timestamp="1580379158051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158051" />
+    <state width="1510" height="279" key="GridCell.Tab.2.bottom" timestamp="1580379158052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158052" />
+    <state width="1510" height="279" key="GridCell.Tab.2.center" timestamp="1580379158051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158051" />
+    <state width="1510" height="279" key="GridCell.Tab.2.left" timestamp="1580379158051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158051" />
+    <state width="1510" height="279" key="GridCell.Tab.2.right" timestamp="1580379158052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580379158052" />
+    <state width="633" height="279" key="GridCell.Tab.3.bottom" timestamp="1580269243887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="633" height="279" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580269243887" />
+    <state width="633" height="279" key="GridCell.Tab.3.center" timestamp="1580269243887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="633" height="279" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580269243887" />
+    <state width="633" height="279" key="GridCell.Tab.3.left" timestamp="1580269243887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="633" height="279" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580269243887" />
+    <state width="633" height="279" key="GridCell.Tab.3.right" timestamp="1580269243887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="633" height="279" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580269243887" />
+    <state width="1510" height="279" key="GridCell.Tab.5.bottom" timestamp="1580260800843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.5.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580260800843" />
+    <state width="1510" height="279" key="GridCell.Tab.5.center" timestamp="1580260800842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.5.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580260800842" />
+    <state width="1510" height="279" key="GridCell.Tab.5.left" timestamp="1580260800842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.5.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580260800842" />
+    <state width="1510" height="279" key="GridCell.Tab.5.right" timestamp="1580260800843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.5.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580260800843" />
+    <state width="1510" height="279" key="GridCell.Tab.6.bottom" timestamp="1580260817772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.6.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580260817772" />
+    <state width="1510" height="279" key="GridCell.Tab.6.center" timestamp="1580260817768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.6.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580260817768" />
+    <state width="1510" height="279" key="GridCell.Tab.6.left" timestamp="1580260817768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.6.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580260817768" />
+    <state width="1510" height="279" key="GridCell.Tab.6.right" timestamp="1580260817769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1510" height="279" key="GridCell.Tab.6.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580260817769" />
+    <state x="440" y="98" key="SettingsEditor" timestamp="1580378353876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580378353876" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580297099865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580297099865" />
+    <state x="1171" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1580342949244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1171" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580342949244" />
+    <state x="718" y="322" key="git4idea.merge.GitPullDialog" timestamp="1580297110896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580297110896" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WeixinVote$Tomcat_8_5_38.ic" NAME="Tomcat 8.5.38 Coverage Results" MODIFIED="1580264005919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
